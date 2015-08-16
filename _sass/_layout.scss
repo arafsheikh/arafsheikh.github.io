@@ -6,7 +6,9 @@ main {
 }
 .site-header {
     .site-title {
+        font-size: $site-title-font-size;
         font-weight: 300;
+        color: gray;
         > a {
             color: $text-color;
             text-decoration: none;
@@ -14,7 +16,7 @@ main {
     }
     .site-nav {
         > a {
-            color: $text-color;
+            color: $nav-text-color;
             &:hover {
                 text-decoration: none;
             }
