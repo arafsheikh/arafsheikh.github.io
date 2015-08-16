@@ -10,7 +10,7 @@ The best thing about Linux is you can literally setup almost everything on a new
 
 I had to start from scratch, install stuff like `git`, `vim`, `python`, `ruby`, and configure them. But the pain didn't end there.
 
-After writing my [previous post](/2015/06/23/imagining-is-more-important-than-implementing) I tried to build my website. I opened `command prompt` changed the directory and typed:
+After writing my [previous post](/imagining-is-more-important-than-implementing.html) I tried to build my website. I opened `command prompt` changed the directory and typed:
 
 `jekyll build`
 
