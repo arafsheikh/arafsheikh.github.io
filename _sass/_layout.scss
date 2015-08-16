@@ -2,13 +2,11 @@
 main {
     max-width: 48rem;
     margin: 0 auto 3rem;
-    padding: 0 12rem;
+    padding: 0 2rem;
 }
 .site-header {
     .site-title {
-        font-size: $site-title-font-size;
         font-weight: 300;
-        color: gray;
         > a {
             color: $text-color;
             text-decoration: none;
@@ -16,7 +14,7 @@ main {
     }
     .site-nav {
         > a {
-            color: $nav-text-color;
+            color: $text-color;
             &:hover {
                 text-decoration: none;
             }
@@ -28,25 +26,6 @@ main {
             }
         }
     }
-}
-@media screen and (max-width: 640px) {
-  .site-header {
-    text-align: center;
-  }
-}
-.social-icons {
-  float: right;
-}
-@media screen and (max-width: 640px) {
-  .social-icons {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-.social-icons a img {
-  border-radius: 5px;
-  max-width: 100%
 }
 .posts {
     list-style: none;
