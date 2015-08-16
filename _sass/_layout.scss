@@ -7,6 +7,8 @@ main {
 .site-header {
     .site-title {
         font-weight: 300;
+        font-size: $site-title-font-size;
+        color: gray;
         > a {
             color: $text-color;
             text-decoration: none;
