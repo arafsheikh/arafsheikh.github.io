@@ -1,0 +1,25 @@
+---
+# The scss file which include files from _sass/
+---
+
+@charset "utf-8";
+
+$base-font-family: Merriweather, Helvetica, Arial, sans-serif;
+$base-font-size:   19px;
+$code-font-size:   16px;
+$small-font-size:  0.875rem;
+$site-title-font-size:	50px;
+$base-line-height: 1.5;
+
+$text-color:   #c0c5ce;
+$link-color:   #bf616a;
+$meta-color:   #a0a0a0;
+$nav-text-color: #D2D6DC;
+$border-color: #ddd;
+$background-color: #263238;
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
+@import "color";
+@import "base";
+@import "layout";
+@import "syntax";
