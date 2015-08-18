@@ -18,8 +18,8 @@ $nav-text-color: #D2D6DC;
 $border-color: #ddd;
 $background-color: #263238;
 
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
 @import "color";
 @import "base";
 @import "layout";
 @import "syntax";
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
