@@ -6,10 +6,10 @@ permalink: /about/
 
 ## Me
 
-I'm a 17 year old Engineering student in India. My interests include:
+I am a Computer Science and Engineering freshman from Shiv Nadar Univeristy, Noida, Inida. My interests include:
 
 - Programming
-- ...can't think of any more
+- ...can't think of anything more
 
 ### Social
 
@@ -21,4 +21,4 @@ I'm a 17 year old Engineering student in India. My interests include:
 
 ## Site
 
-This website runs on [Jekyll](#), and is served via [Github](#). The theme used is [Vida](#) with some of my own customizations. You can fork the modified theme from my [Github repository](#).
+This website runs on [Jekyll](http://jekyllrb.com/), and is served via [Github](https://github.com/). The theme used is [Vida](https://github.com/syaning/vida) with my own customizations.
