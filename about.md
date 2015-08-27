@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Me
 
-I am a Computer Science and Engineering freshman from Shiv Nadar Univeristy, Noida, Inida. My interests include:
+I am a Computer Science and Engineering freshman at Shiv Nadar Univeristy, Noida, Inida. My interests include:
 
 - Programming
 - ...can't think of anything more
