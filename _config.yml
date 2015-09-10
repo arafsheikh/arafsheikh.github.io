@@ -15,3 +15,4 @@ permalink:    none
 gems:
   - jekyll-feed
   - jekyll-sitemap
+  - jemoji
