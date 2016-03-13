@@ -6,10 +6,7 @@ permalink: /about/
 
 ## Me
 
-I am a Computer Science and Engineering freshman at Shiv Nadar Univeristy, Noida, India. My interests include:
-
-- Programming
-- ...can't think of anything more
+I am a Computer Science and Engineering freshman at Shiv Nadar Univeristy, Noida, India. 
 
 ### Social
 
@@ -22,3 +19,5 @@ I am a Computer Science and Engineering freshman at Shiv Nadar Univeristy, Noida
 ## Site
 
 This website runs on [Jekyll](http://jekyllrb.com/), and is served via [Github](https://github.com/). The theme used is [Vida](https://github.com/syaning/vida) with my own customizations.
+
+The repository lives [here](https://github.com/arafsheikh/arafsheikh.github.io). Feel free to fork it.
