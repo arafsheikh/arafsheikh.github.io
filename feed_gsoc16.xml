@@ -13,7 +13,7 @@ title: Atom Feed
         <email>{{ site.author.email }}</email>
     </author>
     {% for post in site.posts %}
-    {% if post.categories contains 'cat1' %}
+    {% if post.categories contains 'gsoc16' %}
     <entry>
             <title>{{ post.title }}</title>
             <link href="{{ site.production_url }}{{ post.url }}"/>
