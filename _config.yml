@@ -1,10 +1,14 @@
 title: Sheikh Araf
-baseurl: ""
+baseurl: "http://sheikharaf.me/"
 
 date_format: "%d-%m-%Y"
 
 google_analytics: UA-66412815-1
 disqus_shortname:
+
+# Site variables
+author_name: "Sheikh Araf"
+author_email: "arafsheikh@gmail.com"
 
 # Build settings
 markdown:     redcarpet
