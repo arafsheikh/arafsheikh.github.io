@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [GSoC16] Week 1 update
+title: "[GSoC16] Week 1 update"
 date: 2016-06-05 15:00:00
 category: gsoc16
 ---
