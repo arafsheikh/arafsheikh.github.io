@@ -6,13 +6,11 @@ permalink: /about/
 
 ## Me
 
-I am a Computer Science and Engineering freshman at Shiv Nadar Univeristy, Noida, India. 
+I'm a Computer Science and Engineering sophomore at Shiv Nadar University, India. I'm a passionate problem solver with a keen interest in building stuff.
 
-### Social
+My code lives on [Github](https://www.github.com/arafsheikh).
 
-- [Github](https://www.github.com/arafsheikh)
-- [Facebook](https://www.facebook.com/Araf.Net)
-- [Twitter](https://twitter.com/arafsheikh)
+If you want to get in touch, email me at `arafsheikh[at]gmail[dot]com` or ping me on [Twitter](https://twitter.com/arafsheikh). 
 
 -----------------------
 
@@ -20,4 +18,4 @@ I am a Computer Science and Engineering freshman at Shiv Nadar Univeristy, Noida
 
 This website runs on [Jekyll](http://jekyllrb.com/), and is served via [Github](https://github.com/). The theme used is [Vida](https://github.com/syaning/vida) with my own customizations.
 
-The repository lives [here](https://github.com/arafsheikh/arafsheikh.github.io). Feel free to fork it.
+The repository exists [here](https://github.com/arafsheikh/arafsheikh.github.io). Feel free to fork it.
