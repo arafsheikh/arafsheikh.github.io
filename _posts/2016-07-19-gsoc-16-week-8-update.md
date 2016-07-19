@@ -15,7 +15,7 @@ We also plan on having a mini-conference of our own, and will have lightning tal
 and other coala community members.
 
 As I'm nearing the end of my GSoC project, I've started reading up some material in order to get started
-with implementing the coafile editor. Currently I'm planing to extend either the `AbstractTextEditor` class 
+with implementing the `coafile` editor. Currently I'm planing to extend either the `AbstractTextEditor` class 
 or the `EditorPart` class, or something similar maybe.
 
 Cheers.
