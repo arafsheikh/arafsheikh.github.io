@@ -86,7 +86,7 @@ The tables below list of commits I've made to various `coala` repositories as a 
 | [f9e46c8](https://github.com/coala-analyzer/coala/commit/f9e46c8) |  coala-json: Add show_bears and filter_by_language    |
 | [460a8c1](https://github.com/coala-analyzer/coala/commit/460a8c1) |  ConfigurationGathering: Add get_filtered_bears       |
 
-This in total accounts for a change of <font color="green">+6292</font>/<font color="red">-1802</font> LOC.
+This in total accounts for a change of <font color="green">+6292</font> / <font color="red">-1802</font> LOC.
 
 Most of the stuff that I had proposed in my proposal is completed successfully. I couldn't complete work on the `coafile` editor
 which I hope to complete after the programme has ended. I've extensively covered my progress in the bi-weekly blog posts.
