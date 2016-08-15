@@ -1,0 +1,79 @@
+---
+layout: null
+permalink: /keybase.txt
+---
+
+==================================================================
+https://keybase.io/arafsheikh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sheikharaf.me
+  * I am arafsheikh (https://keybase.io/arafsheikh) on keybase.
+  * I have a public key with fingerprint 47EF B193 D13F EC83 342D  FB22 D7BB 9D0B 711B 2A51
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010100ae96c46b8a83b49405601f2470159cd6851e5e0ddad0641b6db2d6f844f2750a",
+            "fingerprint": "47efb193d13fec83342dfb22d7bb9d0b711b2a51",
+            "host": "keybase.io",
+            "key_id": "d7bb9d0b711b2a51",
+            "kid": "010100ae96c46b8a83b49405601f2470159cd6851e5e0ddad0641b6db2d6f844f2750a",
+            "uid": "ba1061c120f9b824a81ee5c6ef0e5a19",
+            "username": "arafsheikh"
+        },
+        "service": {
+            "hostname": "sheikharaf.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1471280935,
+    "expire_in": 157680000,
+    "prev": "a487bfc014d802929e743b793d5a8a01767079792b36aa41ad7fffc23348d32b",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.55
+Comment: https://keybase.io/crypto
+
+yMNAAnicrVJtUFRVGF5EVyTRIJmGokGuFuiueM/9votEUc5YCA4TZgzJcu6958IV
+u7vuXhZwRyUqhrApI2iKAJUvE0ZGRUe+ylmigcm1JphaBhnHcHASJL9CYhqpe8n+
+9bNzfpx53/d53vO8HwNhwabQoEBv/WP7nt6YEXTJV1to2nVmLs6LCQ6pBLN5sQK0
++KC9EnJr9gJFwmwYDvSLQ8QzIsUIHORIgeIpnGZwIBMUiwOaFyWGowGiES5JUMIZ
+CgiMJBASI3MUJRMsjUPMismKmodcTpeianpaikWyAHhSAqSMRI4kKUKSBYKQWEHg
+JVxgARAISAOdmO9wGwxdnADdKEFx6D7dsC/K+w/8/6y7cDGdAAHOABEQuMwLHEFB
+DiBEiwyScURDwBtAN3Kp8C2ko6ELyu58pBTkYwesmO73KCIyWmvU8gjzT9xAJui2
+FXO6HJpDdOzVQ/ma5nTbDKpW4jSwRUiwP8piFxRV0lupMzzI5VYcKmYDOlLUFCMt
+oFhAcDhP0lYMFTsVF7IrBoJmGQ7Xj/EP8hgSKY4VZBEHlMThBE/wiKVIgdUnQkMO
+4oBlWJzlWZ4QSAZCCkCJlWVZJPRJcRJJCJhR1z7Vgdl4XSbMMypS8lSoFboQdqDf
+9+ZSU1CoybxsibFiptAVj/+7eJ9/u/ph9INA1w/1g02Bwdn5zpmbFbF11+Zh/6b3
+kjI2pfd5x4d3Xw/fs92sbo6amyMmwpaeb03w3Q9ZGCttaDDPUB2nX6r7PmTK8mlN
+bdZT8Y3aqoCPT8wu60necaXQcmgiOPMG6uxOIHu+LNrSOXrRt+QqNVL5dtCtOo6Z
+qi6dyH72K5N3fmuHln9vJGk2Zc6+LDx53XOtwxWWC3JFGz2+ezQHbb57xf/ju/GT
+kd8dvvyEGtkP8eUb54/4zS298aao2b6+27Xjlpnp0JKfGXKqKnNmNbazc035G7z1
+66Cz1b+mPoNOg4l3Xt9/4typi4epccIUu9CRk1Xd1XJnW3l8jvf3ozcjdqC//Erz
+yye1/iOvYnWVvcNFX4xW+4cmwyc+CqTdjovDC4dWxIVG380cOt8R2Z37S3Tb8VtU
+RH1NzCtqcZrl/ec/SbEmnrlUes732o2opqHu9OCzclF58/6deXeKqTXdra2ZrVej
+12746cPLuUrfdPrRk5a1pwhPuFIWk/Xx4L3Y2s+uYY0HW0ZWeUKm/ji4/mHEsWQs
+qatyYN03UTHZkxWi+/qfFSNl0f7h+cQtuMdmb9xuGSvYxjoC7XtedDuljKn1yWSy
+eeVY233rbx90pddsyLOmth93hB1LK7rQsLI5padpNHXhwYBnurwqq8q7tV9tdz8p
+naBrM3e9MGnuXo7lHvob9hTB0w==
+=JRgu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/arafsheikh
+
+==================================================================
