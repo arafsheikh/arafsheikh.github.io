@@ -15,7 +15,7 @@ This blog post is a final report of my Google Summer of Code project.
 
 The tables below list of commits I've made to various `coala` repositories as a part of my project.
 
-### [`coala-eclipse`](https://github.com/coala-analyzer/coala-eclipse)
+### [coala-eclipse](https://github.com/coala-analyzer/coala-eclipse)
 
 |  SHA                                                                      |  Description                                                        |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -70,7 +70,7 @@ The tables below list of commits I've made to various `coala` repositories as a 
 | [e4426d6](https://github.com/coala-analyzer/coala-eclipse/commit/e4426d6) |  Rename com.coala.plugin to com.coala.core                          |
 | [513e6be](https://github.com/coala-analyzer/coala-eclipse/commit/513e6be) |  Clean up                                                           |
 
-### [`coala-bears`](https://github.com/coala-analyzer/coala-bears)
+### [coala-bears](https://github.com/coala-analyzer/coala-bears)
 
 |  SHA                                                                    |  Description                                         |
 | ----------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -79,7 +79,7 @@ The tables below list of commits I've made to various `coala` repositories as a 
 | [9e5b42f](https://github.com/coala-analyzer/coala-bears/commit/9e5b42f) |  ClangComplexityBear: Make ``cursor_kinds`` private  |
 | [0fef458](https://github.com/coala-analyzer/coala-bears/commit/0fef458) |  CheckstyleBear: Handle column field correctly       |
 
-### [`coala`](https://github.com/coala-analyzer/coala)
+### [coala](https://github.com/coala-analyzer/coala)
 
 |  SHA                                                              |  Description                                          |
 | ------------------------------------------------------------------| ----------------------------------------------------- |
