@@ -16,8 +16,8 @@ This blog post is a final report of my Google Summer of Code project.
 The tables below list of commits I've made to various `coala` repositories as a part of my project.
 
 ### [_coala-eclipse_](https://github.com/coala-analyzer/coala-eclipse)
-<center>
 
+{:.center}
 |  SHA                                                                      |  Description                                                        |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | [d5053c7](https://github.com/coala-analyzer/coala-eclipse/commit/d5053c7) |  export: Update installation binary                                 |
@@ -71,7 +71,7 @@ The tables below list of commits I've made to various `coala` repositories as a 
 | [e4426d6](https://github.com/coala-analyzer/coala-eclipse/commit/e4426d6) |  Rename com.coala.plugin to com.coala.core                          |
 | [513e6be](https://github.com/coala-analyzer/coala-eclipse/commit/513e6be) |  Clean up                                                           |
 
-</center>
+
 ### [_coala-bears_](https://github.com/coala-analyzer/coala-bears)
 
 |  SHA                                                                    |  Description                                         |
@@ -136,3 +136,7 @@ by [mr-karan](http://mr-karan.github.io) in his project.
 Finally I would like to thank Google for this amazing opportunity to work with some of the most amazing people,
 learn so much, and get paid to have fun. Special thanks to my mentor *Harsh Dattani* for helping me with the project, 
 and the folks at *Python Software Foundation* and *coala* for selecting me to be a part of this programme.
+
+.center {
+  text-align: center;
+}
