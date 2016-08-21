@@ -16,6 +16,7 @@ This blog post is a final report of my Google Summer of Code project.
 The tables below list of commits I've made to various `coala` repositories as a part of my project.
 
 ### [_coala-eclipse_](https://github.com/coala-analyzer/coala-eclipse)
+<center>
 
 |  SHA                                                                      |  Description                                                        |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -70,6 +71,7 @@ The tables below list of commits I've made to various `coala` repositories as a 
 | [e4426d6](https://github.com/coala-analyzer/coala-eclipse/commit/e4426d6) |  Rename com.coala.plugin to com.coala.core                          |
 | [513e6be](https://github.com/coala-analyzer/coala-eclipse/commit/513e6be) |  Clean up                                                           |
 
+</center>
 ### [_coala-bears_](https://github.com/coala-analyzer/coala-bears)
 
 |  SHA                                                                    |  Description                                         |
@@ -88,9 +90,48 @@ The tables below list of commits I've made to various `coala` repositories as a 
 
 This in total accounts for a change of <font color="green">+6292</font> / <font color="red">-1802</font> LOC.
 
-Most of the stuff that I had proposed in my proposal is completed successfully. I couldn't complete work on the `coafile` editor
-which I hope to complete after the programme has ended. I've extensively covered my progress in the bi-weekly blog posts.
-Do check them out if you wish to know more about my project.
+## Current state of the plug-in
+
+After working hard for three months on the plug-in, I'm happy to say that the plug-in
+is very much usable by the end user. The plug-in will make the life of developers who
+use Eclipse easy by allowing them to analyze code directly from within the IDE.
+
+The plug-in provides two primary ways to run the analysis. One by using the pre-configured
+`coafile` and other by manually selecting a bear. The first approach is preferred since
+it allows running the analysis on the whole project directory, in contrast to the manual
+approach which runs the analysis on a specific file.
+
+Once the analysis is initiated the plug-in then communicates with coala using the `coala-json`
+binary. After the analysis is complete the results (if any) are marked on the editor
+along with the issue message.
+
+![](/images/marker.png)
+
+Another important feature of the plug-in is that it allows the user to automatically fix
+the issues if the bear used gives the corrected result. Once the markers are visible in the
+`Problems` view the `Quick Fix` option can be selected and the `diff` to correct the issue
+will be automatically applied to the source file. This internally uses Google's
+[diff-match-patch](https://code.google.com/p/google-diff-match-patch/) library.
+
+There's a lot of other stuff that the plug-in does that I haven't covered in this post
+like user interaction for the bears that require user input, dynamic menus, etc. 
+I've extensively covered my progress in the bi-weekly posts. Do check them out if you
+wish to know more about my project.
+
+## Remaining work
+
+Most of the stuff that I had proposed in my proposal is completed successfully. But I
+couldn't complete work on the `coafile` editor. This task turned out to be much more
+complicated than I expected it to be. Nevertheless I'll resume work on it as soon as
+possible.
+
+Another feature I proposed for the plug-in was the "Bear creation wizard". This was an
+experimental feature that I would've discussed with my mentor if my project completed
+before the deadline (which obviously didn't happen). Also a similar tool called
+[coala_bears_create](https://gitlab.com/coala/coala-bear-management) was implemented
+by [mr-karan](http://mr-karan.github.io) in his project.
+
+## Acknowledgements
 
 Finally I would like to thank Google for this amazing opportunity to work with some of the most amazing people,
 learn so much, and get paid to have fun. Special thanks to my mentor *Harsh Dattani* for helping me with the project, 
