@@ -70,7 +70,7 @@ The tables below list of commits I've made to various `coala` repositories as a 
 | [68758db](https://github.com/coala-analyzer/coala-eclipse/commit/68758db) |  tests: Add MarkerTest                                              |
 | [e4426d6](https://github.com/coala-analyzer/coala-eclipse/commit/e4426d6) |  Rename com.coala.plugin to com.coala.core                          |
 | [513e6be](https://github.com/coala-analyzer/coala-eclipse/commit/513e6be) |  Clean up                                                           |
-{: style="text-align: center"}
+
 
 ### [_coala-bears_](https://github.com/coala-analyzer/coala-bears)
 
