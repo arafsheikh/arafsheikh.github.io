@@ -4,7 +4,8 @@
 
 @charset "utf-8";
 
-$base-font-family: Merriweather, Helvetica, Arial, sans-serif;
+$base-font-family: Merriweather Sans, Helvetica, Arial, sans-serif;
+$heading-font-family: Merriweather, Georgia, serif;
 $base-font-size:   19px;
 $code-font-size:   16px;
 $small-font-size:  0.875rem;
@@ -22,4 +23,4 @@ $background-color: #263238;
 @import "base";
 @import "layout";
 @import "syntax";
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans:400,400i,700);

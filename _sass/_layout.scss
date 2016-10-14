@@ -6,7 +6,7 @@ main {
 }
 .site-header {
     .site-title {
-        font-weight: 300;
+        font-weight: 400;
         font-size: $site-title-font-size;
         color: gray;
         > a {
@@ -16,6 +16,7 @@ main {
     }
     .site-nav {
         > a {
+            font-family: $heading-font-family;
             color: $nav-text-color;
             &:hover {
                 text-decoration: none;
@@ -52,6 +53,7 @@ main {
         margin-bottom: 0;
     }
     .post-meta {
+        font-family: $heading-font-family;
         margin: 0;
         text-align: center;
         color: $meta-color;
