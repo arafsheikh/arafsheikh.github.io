@@ -20,7 +20,7 @@
                 <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Blog</a>
                 <a href="{{ site.baseurl }}/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
             </nav>
-            {% feed_meta %}
+            <link type="application/atom+xml" rel="alternate" href="//sheikharaf.com/feed.xml" title="Sheikh Araf" />
         </header>
         {{ content }}
     </main>
