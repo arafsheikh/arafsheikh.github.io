@@ -17,6 +17,10 @@ redcarpet:
 permalink:    none
 future: true
 
+# Feed
+feed:
+  path: feed.xml
+
 gems:
   - jekyll-feed
   - jekyll-sitemap
