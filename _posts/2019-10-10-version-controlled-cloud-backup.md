@@ -4,21 +4,21 @@ title: Version Controlled Cloud Backup
 date: 2019-10-10 03:11:00
 ---
 
-I've longed for a (hobby) home server for quite a while. So a couple of weeks ago I pulled the trigger and bought myself a Raspberry Pi. As soon as I received it I hooked it in and began my odessey into the world of server administration and self-hosted services. I swiftly set-up a SSH server, SMTP mail server, reverse proxy, database, feed reader, and a bunch of home automation scripts. With all these services came a ton of configuration files that need to backup to a remote location lest I do something stupid and lose them. After all I have a habit of tinkering around too much 🤷‍♂️.
+I've longed for a (hobby) home server for quite a while. So a couple of weeks ago I pulled the trigger and bought myself a Raspberry Pi. As soon as I received it I hooked it in and began my odyssey into the world of server administration and self-hosted services. I swiftly set-up a SSH server, SMTP mail server, reverse proxy, database, feed reader, and a bunch of home automation scripts. With all these services came a ton of configuration files that need to be backed up to a remote location lest I do something stupid and lose them. After all, I have a habit of tinkering around too much 🤷‍♂️.
 
 ## The brains of the solution
 
-I wanted a free and hackish solution, one that allowed me to use the tools I'm already familiar with. Most of the files I wanted to backup were text so I thought – why not use git! Using git would have the added advantage of version control, so I can go back to an older revision of my files – something very useful when I'm constantly fiddling with the config. 
+I wanted a free and hackish solution, one that allowed me to use the tools I'm already familiar with. Most of the files I wanted to backup were text so I thought – why not use git! Using git would have the added advantage of version control, so I can go back to an older revision of my files – something very useful when I'm constantly fiddling with config files. 
 
-I scouted around the Interwebs for a tool to copy my files and directories into a local git repository. I stumbled upon `rsync` – a good 'ol (circa [1996](https://en.wikipedia.org/wiki/Rsync#History)) Unix utility to maintain a two directories on different systems in-sync. But it can also be used to  maintain in-sync replicas of files and directories within a machine. Perfect!
+I scouted around the Interwebs for a tool to copy my files and directories into a local git repository. I stumbled upon `rsync` – a good 'ol (circa [1996](https://en.wikipedia.org/wiki/Rsync#History)) Unix utility to keep directories on a remote system in-sync. But it can also be used to  maintain in-sync replicas of files and directories within a machine. Perfect!
 
 ## What about binary files?
 
-I also wanted to backup my databse dump. Since the database can get large quickly I decided to gunzip the dump file. Now I had a binary file that could become reasonably large over time and will be diff-ed and commited by git everytime I ran the backup scipt. 
+I also wanted to backup my database dump. Since databases can get large quickly I decided to gunzip the dump file. Now I had a binary file that could become reasonably large over time and will be diff-ed and committed by git everytime I ran the backup script.
 
 ### Git LFS to the rescue!
 
-Git's Large File System extension allows stroing the binary files in a seperate location and only commiting the latest pointer to the file in the git repository. This way it's much quicker to clone the repository back as only the last revision of the binary file is downloaded. Plus, the commits look cleaner ✨.
+Git's Large File System extension allows storing the binary files in a separate location and only committing the latest pointer to the file in the git repository. This way it's much quicker to clone the repository back as only the last revision of the binary file is downloaded. Plus, the commits look cleaner ✨.
 
 ## Putting it all together
 
@@ -53,7 +53,7 @@ rsync_out=$(rsync -aR --delete -v \
 	/home/pi/backup)
 
 if [ $? -ne 0 ]; then
-	>&2 echo 'Error occured running rsync'
+	>&2 echo 'Error occurred running rsync'
 fi
 
 git -C /home/pi/backup add .
