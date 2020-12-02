@@ -4,7 +4,7 @@ title:	About Me
 permalink: /about/
 ---
 
-I am a platform engineer and architect specializing in cloud infrastructure.
+I am a cloud infrastructure engineer specializing in distributed messaging and network security.
 
 -----------------------
 
