@@ -5,15 +5,15 @@ date: 2016-08-16 00:00:00 +0530
 permalink: /google-summer-of-code-2016-summary
 ---
 
-The Google Summer of Code programme has come to an end, and it's been an amazing experience.
-I've learnt a lot in these three months. Apart from the technical knowledge gained,
-I've learnt how to well communicate with other members of the team, manage deadlines, and maintain code.
+The Google Summer of Code program has come to an end and it's been an amazing experience.
+I've learnt a lot in the last three months. Apart from gaining technical knowledge,
+I've learnt how to communicate well within a team, manage deadlines, and maintain code.
 
-This blog post is a final report of my Google Summer of Code project.
+This blog post is the final report of my Google Summer of Code project.
 
 ## Commits
 
-The tables below list of commits I've made to various `coala` repositories as a part of my project.
+The tables below list all the commits I've made to various `coala` repositories during the project.
 
 ### [_coala-eclipse_](https://github.com/coala-analyzer/coala-eclipse)
 
@@ -88,35 +88,35 @@ The tables below list of commits I've made to various `coala` repositories as a 
 | [f9e46c8](https://github.com/coala-analyzer/coala/commit/f9e46c8) |  coala-json: Add show_bears and filter_by_language    |
 | [460a8c1](https://github.com/coala-analyzer/coala/commit/460a8c1) |  ConfigurationGathering: Add get_filtered_bears       |
 
-This in total accounts for a change of <font color="green">+6292</font> / <font color="red">-1802</font> LOC.
+In total, this accounts for a change of <font color="green">+6292</font> / <font color="red">-1802</font> LOC.
 
 ## Current state of the plug-in
 
 After working hard for three months on the plug-in, I'm happy to say that the plug-in
 is very much usable by the end user. The plug-in will make the life of developers who
-use Eclipse easy by allowing them to analyze code directly from within the IDE.
+use Eclipse easy by allowing them to analyze code directly within the IDE.
 
-The plug-in provides two primary ways to run the analysis. One by using the pre-configured
-`coafile` and other by manually selecting a bear. The first approach is preferred since
-it allows running the analysis on the whole project directory, in contrast to the manual
+The plug-in provides two ways to run the analysis. By using the pre-configured
+`coafile` and by manually selecting a bear. The first approach is preferred since
+it allows running the analysis on the whole project directory, in contrast with the manual
 approach which runs the analysis on a specific file.
 
-Once the analysis is initiated the plug-in then communicates with coala using the `coala-json`
+Once the analysis is initiated, the plug-in communicates with coala using the `coala-json`
 binary. After the analysis is complete the results (if any) are marked on the editor
-along with the issue message.
+along with the issue messages.
 
 ![](/images/marker.png)
 
 Another important feature of the plug-in is that it allows the user to automatically fix
-the issues if the bear used gives the corrected result. Once the markers are visible in the
+the issues if the bear used gives the corrected results. Once the markers are visible in the
 `Problems` view the `Quick Fix` option can be selected and the `diff` to correct the issue
 will be automatically applied to the source file. This internally uses Google's
 [diff-match-patch](https://code.google.com/p/google-diff-match-patch/) library.
 
-There's a lot of other stuff that the plug-in does that I haven't covered in this post
+There're a lot of other things that the plug-in does that I haven't covered in this post
 like user interaction for the bears that require user input, dynamic menus, etc. 
 I've extensively covered my progress in the bi-weekly posts. Do check them out if you
-wish to know more about my project.
+wish to know more.
 
 ## Remaining work
 
