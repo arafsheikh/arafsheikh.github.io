@@ -1,6 +1,6 @@
 ---
 layout:	post
-title: Engineering Career Choices: My 'Big Company' Experience
+title: Engineering Career Choices
 date: 2021-03-25 00:13:00
 ---
 
